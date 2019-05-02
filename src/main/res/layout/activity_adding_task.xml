@@ -8,14 +8,14 @@
 
     <Button
         android:id="@+id/buttonContents"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="284dp"
+        android:layout_height="63dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="-12dp"
-        android:layout_marginTop="190dp"
-        android:text="VIEW CONTENTS"
-        android:background="@color/buttonyellow"/>
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="203dp"
+        android:background="@drawable/button_shape"
+        android:text="VIEW CONTENTS" />
 
     <EditText
         android:id="@+id/TaskEditText"
@@ -31,12 +31,12 @@
 
     <Button
         android:id="@+id/buttonSave"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="284dp"
+        android:layout_height="63dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="-14dp"
-        android:layout_marginTop="117dp"
-        android:text="SAVE"
-        android:background="@color/buttonyellow"/>
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="121dp"
+        android:background="@drawable/button_shape"
+        android:text="SAVE" />
 </RelativeLayout>
